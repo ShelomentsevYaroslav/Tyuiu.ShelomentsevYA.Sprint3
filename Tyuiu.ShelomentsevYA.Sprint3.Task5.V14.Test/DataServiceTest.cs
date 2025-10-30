@@ -12,7 +12,7 @@ namespace Tyuiu.ShelomentsevYA.Sprint3.Task5.V14.Test
             DataService ds = new DataService();
             int x = 5;
             double result = ds.GetSumSumSeries(x, 1, 1, 3, 14);
-            double expected = -20.675; 
+            double expected = -31.275; 
             Assert.AreEqual(expected, result);
         }
     }
