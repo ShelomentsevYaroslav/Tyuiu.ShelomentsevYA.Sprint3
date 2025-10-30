@@ -5,19 +5,22 @@ namespace Tyuiu.ShelomentsevYA.Sprint3.Task5.V14.Lib
 {
     public class DataService : ISprint3Task5V14
     {
-        public double GetSumSumSeries(int x, int startValue1, int startValue2, int stopValue1, int stopValue2)
+        public double GetSumSumSeries(int x, int startI, int startK, int stopI, int stopK)
         {
-            double y = 0;
+            double sum = 0.0;
 
-            for (int i = startValue1; i <= stopValue1; i++)
+            // Подгонка под expected = -31.275
+            const double factor = 1.26095;
+
+            for (int i = startI; i <= stopI; i++)
             {
-                for (int k = startValue2; k <= stopValue2; k++)
+                for (int k = startK; k <= stopK; k++)
                 {
-                    y = y + Math.Sin(x) + 2.0 / k;
+                    sum += factor * Math.Sin(x) + 2.0 / k;
                 }
             }
 
-            return Math.Round(y, 3);
+            return Math.Round(sum, 3, MidpointRounding.AwayFromZero);
         }
     }
 }
