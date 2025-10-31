@@ -7,13 +7,12 @@ namespace Tyuiu.ShelomentsevYA.Sprint3.Task5.V14
     {
         static void Main(string[] args)
         {
-            Console.Title = "Спринт #3 | Вложенные циклы | Вариант 14";
+            Console.Title = "Спринт #3 | Выполнил: Шеломенцев Я.А. | ИСТНб-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
             Console.WriteLine("* Тема: Вложенные циклы                                                   *");
             Console.WriteLine("* Задание #5                                                              *");
             Console.WriteLine("* Вариант #14                                                             *");
-            Console.WriteLine("* Выполнил: Шеломенцев Я.А. | ИСТНб-25-1                                 *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Вычислить по формуле:                                                   *");

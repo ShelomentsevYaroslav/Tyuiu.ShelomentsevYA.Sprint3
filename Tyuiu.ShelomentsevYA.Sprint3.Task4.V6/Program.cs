@@ -13,7 +13,6 @@ namespace Tyuiu.ShelomentsevYA.Sprint3.Task4.V6
             Console.WriteLine("* Тема: Использование операторов continue и break в циклах                *");
             Console.WriteLine("* Задание #4                                                              *");
             Console.WriteLine("* Вариант #6                                                              *");
-            Console.WriteLine("* Выполнил: Шеломенцев Ярослав Александрович | ИСТНб-25-1                 *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* На отрезке, где x принимает значения от -5 до 5, вычислить значение     *");

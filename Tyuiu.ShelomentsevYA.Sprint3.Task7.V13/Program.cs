@@ -7,13 +7,12 @@ namespace Tyuiu.ShelomentsevYA.Sprint3.Task7.V13
     {
         static void Main(string[] args)
         {
-            Console.Title = "Спринт #3 | Итоговый проект | Вариант 13";
+            Console.Title = "Спринт #3 | Выполнил: Шеломенцев Я.А. | ИСТНб-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
             Console.WriteLine("* Тема: Добавление к решению итоговых проектов по спринту                 *");
             Console.WriteLine("* Задание #7                                                              *");
             Console.WriteLine("* Вариант #13                                                             *");
-            Console.WriteLine("* Выполнил: Шеломенцев Я.А. | ИСТНб-25-1                                  *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Вывести таблицу значений функции F(x) = 3x + 2 - (2x - x)/(cos(x^3)+1). *");
