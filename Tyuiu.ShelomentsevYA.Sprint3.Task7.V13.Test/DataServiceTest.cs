@@ -14,8 +14,6 @@ namespace Tyuiu.ShelomentsevYA.Sprint3.Task7.V13.Test
 
             double[] expected = ds.GetMassFunction(-5, 5);
 
-            
-            
             Assert.AreEqual(2, expected[5]); 
         }
     }
