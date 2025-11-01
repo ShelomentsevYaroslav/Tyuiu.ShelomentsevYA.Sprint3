@@ -35,10 +35,9 @@ namespace Tyuiu.ShelomentsevYA.Sprint3.Task7.V13
             int index = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
-                Console.WriteLine(result[index]);
+                Console.WriteLine($"*   {x,3}   |   {result[index],8:F2}                                       *");
                 index++;
             }
-
             Console.ReadKey();
         }
     }
